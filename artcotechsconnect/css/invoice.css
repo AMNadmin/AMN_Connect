@@ -1,0 +1,74 @@
+/***
+Invoice page
+***/
+.invoice table {
+  margin:30px 0 30px;
+}
+
+.invoice .invoice-logo {
+  margin-bottom:20px;
+}
+
+.invoice .invoice-logo p {
+  padding:5px 0;
+  font-size:26px;
+  line-height:28px;
+  text-align:right;
+}
+
+.invoice .invoice-logo p span {
+  display:block;
+  font-size:14px;
+}
+
+.invoice .invoice-logo-space {
+  margin-bottom:15px;
+}
+
+.invoice .invoice-payment strong {
+  margin-right:5px;
+}
+
+.invoice .invoice-block {
+  text-align:right;
+}
+
+.invoice .invoice-block .amounts {
+  margin-top: 20px;
+  font-size: 14px;
+}
+.wpi_right_col .btn.blue {
+	margin-top: 10px;
+}
+form.wpi_checkout .text-input {
+	font-size: 14px;
+	font-weight: normal;
+	color: #333333;
+	background-color: #ffffff;
+	border: 1px solid #e5e5e5;
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+form.wpi_checkout li.section_title {
+	margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+	.invoice .invoice-logo-space img {
+		width: 230px;
+		height: 70px;
+	}
+}
+@media only screen and (max-width: 320px) {
+	.invoice .invoice-logo-space img {
+		width: 135px;
+		height: 43px;
+	}
+	.invoice .invoice-logo p {
+		font-size: 12px;
+		line-height: 20px;
+	}
+}
